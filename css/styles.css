@@ -813,9 +813,10 @@ transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .footer-subscribe-wraper {
     display: block;
   width: 570px;
-  margin-left: auto;
-  margin-bottom: 94px;
-  justify-content: center;
+  height: 86px;
+  margin-left: 93px;
+  
+ 
   
 
 
@@ -824,7 +825,58 @@ transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .subscribe-letter {
   display: flex;
   
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: tomato;
+margin-bottom: 20px;
+
+  
 }
+.modal-form-subscribe {
+  display: block;
+  width: 358px;
+height: 50px;
+  
+}
+.modal-subscribe {
+  width: 200px;
+height: 50px;
+background-color: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+.modal-form-subscrib-label {
+  padding: 20px;
+}
+.modal-subscribe-link {
+  width: 109px;
+height: 30px;
+
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+padding-left: 30px;
+
+
+}
+
 
   }
 /*modal button*/
