@@ -452,7 +452,7 @@
         </div>
         <div class="footer-subscribe-wraper">
           <p class="subscribe-letter">Подпишитесь на рассылку</p>
-          <label class="modal-form-subscrib-label">
+          <form action="#" method="GET" class="subscribe-form">
             <input
               class="modal-form-subscrib"
               type="email"
@@ -460,11 +460,12 @@
               placeholder="Email"
               required
             />
-          </label>
-
-          <button class="modal-subscribe" type="submit">
-            <span class="modal-subscribe-link">Подписаться</span>
-          </button>
+            <div class="modal-subscribe-button-wraper">
+              <button type="submit" class="modal-subscribe-button iconsend">
+                <span class="modal-subscribe-link">Подписаться</span>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
